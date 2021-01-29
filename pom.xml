@@ -5,7 +5,7 @@
 
 	<groupId>skaro.pokeaimpi</groupId>
 	<artifactId>pokeaimpi-sdk</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>PokeAimPI-SDK</name>
 	<url>http://maven.apache.org</url>
@@ -62,6 +62,12 @@
 		</dependencies>
 	</dependencyManagement>
 
-
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>PokeAimPI SDK Packages</name>
+			<url>https://maven.pkg.github.com/SirSkaro/PokeAimPI-SDK</url>
+		</repository>
+	</distributionManagement>
 
 </project>
