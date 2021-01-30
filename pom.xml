@@ -5,7 +5,7 @@
 
 	<groupId>skaro.pokeaimpi</groupId>
 	<artifactId>pokeaimpi-sdk</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>PokeAimPI-SDK</name>
 	<url>http://maven.apache.org</url>
