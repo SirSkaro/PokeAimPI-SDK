@@ -6,7 +6,7 @@
 	<groupId>skaro.pokeaimpi</groupId>
 	<artifactId>pokeaimpi-sdk</artifactId>
 	<version>1.0.0</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 	<name>PokeAimPI-SDK</name>
 	<url>http://maven.apache.org</url>
 
@@ -26,7 +26,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>javax.persistence</groupId>
